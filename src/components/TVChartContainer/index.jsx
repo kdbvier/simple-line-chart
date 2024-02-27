@@ -66,7 +66,7 @@ const ChartContainer = ({ data, color = "#8884d8", label }) => {
             stroke="black"
             strokeDasharray="5 5"
           />
-          <XAxis dataKey="time" label="time" />
+          <XAxis dataKey="time" />
           <Tooltip />
           <YAxis />
         </LineChart>

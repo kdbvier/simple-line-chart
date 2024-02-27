@@ -66,6 +66,7 @@ const App = () => {
           <ChartContainer
             data={changeDataForChart(untrnData)}
             label="neutron price chart"
+            color="blue"
           />
         )}
         {isReady && (
